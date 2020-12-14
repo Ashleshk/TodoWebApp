@@ -11,7 +11,7 @@ public class LoginDao {
 	public boolean validate(LoginBean loginBean) throws ClassNotFoundException{
 		
 		boolean status=false;
-		Class.forName("oracle.jdbc.driver.OracleDriver");
+		Class.forName("com.mysql.jdbc.Driver");
 
 		try (Connection connection = JDBCUtils.getConnection();
 				// Step 2:Create a statement using connection object

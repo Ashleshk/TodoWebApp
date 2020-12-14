@@ -14,7 +14,17 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
-	<classpathentry kind="lib" path="E:/ORACLE JDBC JAR FILES/ojdbc6-2.0.jar">
+	<classpathentry kind="lib" path="E:/JSP+REST Jar Files/JStl/jstl-1.2.jar/jstl-1.2.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/MySQL JDBC/com.mysql.jdbc_5.1.5.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/lenovo/Downloads/MySQL JDBC/mysql-connector-java-5.0.8-bin-g.jar">
 		<attributes>
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
